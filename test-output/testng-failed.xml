@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CLMS List management]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Add the Product openet product type in list (failed)">
+    <classes>
+      <class name="testSuite.TC_01_ListManagement_productAdd">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="testExecutionproductTypeAdd"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- testSuite.TC_01_ListManagement_productAdd -->
+    </classes>
+  </test> <!-- Add the Product openet product type in list (failed) -->
+</suite> <!-- Failed suite [CLMS List management] -->
